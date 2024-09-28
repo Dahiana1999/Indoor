@@ -1,7 +1,6 @@
-import First from './Components/First.jsx'
-import Header from './Components/Header.jsx'
-import Second from './Components/Second.jsx'
-import Footer from './Components/Footer.jsx';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Todo from './Todo'
+import Contactos from './Pages/Contactos'
 
 
 
@@ -9,13 +8,12 @@ import Footer from './Components/Footer.jsx';
 function App() {
 
   return (
-    <>
-      <Header />
-      <First />
-      <Second />
-      <Footer />
-      
-    </>
+   <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Todo/>} />
+    <Route path="/contacto" element={<Contactos/>} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 

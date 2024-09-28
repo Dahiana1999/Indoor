@@ -41,8 +41,20 @@ body
     color: #ffffff;
     padding-top: 10px;
     cursor: pointer;
-    
 
+}
+
+.nav_li:hover {
+    color: #dc3939;
+}
+
+.nav_a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav_a:hover {
+    color: #dc3939;
 }
 
 .icons {

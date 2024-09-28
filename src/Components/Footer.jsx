@@ -25,19 +25,19 @@ function Footer() {
         <a href="#" className="icons-2">
         <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="#" className="icons-2">
+        <a href="https://www.instagram.com/trtindoorcycling?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="icons-2">
         <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="#" className="icons-2">
+        <a href="https://www.youtube.com/@trtindoorcycling" target="_blank" className="icons-2">
         <i class="fa-brands fa-youtube"></i>
         </a>
-        <a href="#" className="icons-2">
+        <a href="https://qrcd.org/3u23" target="_blank"  className="icons-2">
         <i class="fa-brands fa-whatsapp"></i>
         </a>
         </div>
       </h1>
       <h2 className="footer_h2">
-        © 2022 TRT Indoor Cycling. Todos los derechos reservados.
+        © 2024 TRT Indoor Cycling. Todos los derechos reservados.
       </h2>
     </div>
   );
